@@ -10,8 +10,8 @@ const Header = () => {
       className="header"
     >
       <span className="header-logo">WeSneakez.</span>
-      <span className="header-account">Menu</span>
-      <span className="header-user">Menu</span>
+      <span className="header-menu">Menu</span>
+      <span className="header-menu2">Menu</span>
     </motion.nav>
   );
 };

@@ -11,23 +11,20 @@
 @layer components {
   /* header */
   .header {
-    @apply h-[10vh] flex items-center px-10 py-4 md:px-10 text-lg justify-between;
+    @apply h-[15vh] flex items-center px-10 py-4 md:px-10 text-lg justify-between;
   }
   .header-logo {
     @apply font-black md:text-3xl;
   }
-  .header-account {
+  .header-menu {
     @apply hidden font-medium md:block;
   }
-  .header-user {
+  .header-menu2 {
     @apply block md:hidden;
-  }
-  .header > ul {
-    @apply justify-center flex-1 hidden space-x-5 md:flex;
   }
 
   main {
-    @apply relative h-[90vh];
+    @apply relative h-[85vh];
   }
 
   /* text container */
@@ -36,13 +33,13 @@
     @apply flex flex-col h-full px-2 py-28 md:px-52;
   }
   .textContainer-top {
-    @apply flex items-center justify-between text-lg md:text-2xl;
+    @apply flex items-center justify-between text-lg md:text-xl;
   }
   .textContainer-middle {
     @apply grid flex-1 place-items-center;
   }
   .textContainer-middle > span {
-    @apply text-5xl font-black tracking-wider md:text-9xl;
+    @apply text-6xl font-black tracking-wider md:text-9xl;
   }
   .textContainer-bottom {
     @apply flex items-center justify-between;
@@ -61,6 +58,6 @@
     @apply absolute top-0 left-0 grid w-full text-center place-items-center;
   }
   .sneakers {
-    @apply h-[500px] w-[450px] md:h-[550px] md:w-[500px] object-contain;
+    @apply h-[600px] w-[550px] md:h-[550px] md:w-[900px] object-contain;
   }
 }

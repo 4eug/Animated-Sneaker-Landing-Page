@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontSize: {
+        "sneakers-lg": "96px",
+      },
       fontFamily: {
         "sneakers-montserrat": ["Montserrat"],
       },
