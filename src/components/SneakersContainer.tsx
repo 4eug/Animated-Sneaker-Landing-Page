@@ -7,14 +7,14 @@ const SneakersContainer = () => {
       variants={sneakerWrapper}
       initial="initial"
       animate="animate"
-      className="bottleWrapper"
+      className="sneakersWrapper"
     >
       <motion.img
         variants={sneaker}
         initial="initial"
         animate="animate"
         src="/images/sneakers.png"
-        className="bottle"
+        className="sneakers"
       />
     </motion.div>
   );

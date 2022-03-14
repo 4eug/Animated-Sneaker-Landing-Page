@@ -3,7 +3,11 @@ module.exports = {
   purge: ["./src/**/*.tsx"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "sneakers-montserrat": ["Montserrat"],
+      },
+    },
   },
   variants: {
     extend: {},

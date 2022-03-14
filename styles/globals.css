@@ -4,17 +4,17 @@
 
 @layer base {
   body {
-    @apply h-screen font-serif text-gray-900 bg-gray-100;
+    @apply h-screen font-sneakers-montserrat text-gray-900 bg-gray-100;
   }
 }
 
 @layer components {
   /* header */
   .header {
-    @apply h-[10vh] flex items-center px-10 py-4 md:px-20 text-lg justify-between;
+    @apply h-[10vh] flex items-center px-10 py-4 md:px-10 text-lg justify-between;
   }
   .header-logo {
-    @apply font-black md:text-2xl;
+    @apply font-black md:text-3xl;
   }
   .header-account {
     @apply hidden font-medium md:block;
@@ -54,34 +54,13 @@
     @apply text-sm font-semibold md:text-2xl;
   }
   .textContainer-bottom > p > span {
-    @apply text-green-600;
+    @apply text-red-400;
   }
 
-  /* bottle it like barcelona :: */
-  .bottleWrapper {
+  .sneakersWrapper {
     @apply absolute top-0 left-0 grid w-full text-center place-items-center;
   }
-  .bottle {
-    @apply h-[400px] w-[250px] md:h-[550px] md:w-[500px] object-contain;
-  }
-
-  /* leaf & co. */
-  .leafWrapper-1 {
-    @apply absolute top-52 left-[30%];
-  }
-  .leafWrapper-2 {
-    @apply absolute top-1/2 right-72;
-  }
-  .leafWrapper-3 {
-    @apply absolute top-10 right-[40%];
-  }
-  .leafWrapper-4 {
-    @apply absolute top-[36%] right-1/3;
-  }
-  .leafWrapper-5 {
-    @apply absolute top-[75%] left-1/4;
-  }
-  .leaf {
-    @apply object-contain w-20 h-28;
+  .sneakers {
+    @apply h-[500px] w-[450px] md:h-[550px] md:w-[500px] object-contain;
   }
 }
