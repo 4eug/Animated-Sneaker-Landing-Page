@@ -9,7 +9,7 @@ const TextContainer = () => {
       animate="animate"
       className="textContainer"
     >
-      {/* upper */}
+      {/* upper text */}
       <div className="textContainer-top">
         <motion.span
           variants={fadeIn()}
@@ -24,13 +24,13 @@ const TextContainer = () => {
           2 /4
         </motion.span>
       </div>
-      {/* //text */}
+      {/* //middle text */}
       <div className="textContainer-middle">
         <motion.span variants={fadeIn()} initial="initial" animate="animate">
           SNEAKERS
         </motion.span>
       </div>
-      {/* lower */}
+      {/* lower text */}
       <div className="textContainer-bottom ">
         <motion.button variants={fadeIn()}>show all sneakers</motion.button>
         <motion.p variants={fadeIn()}>
