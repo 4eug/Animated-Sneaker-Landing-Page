@@ -16,6 +16,10 @@
   .header-logo {
     @apply font-black md:text-3xl;
   }
+  .header-logo > span {
+    @apply text-red-500;
+  }
+
   .header-menu {
     @apply hidden font-medium md:block;
   }
