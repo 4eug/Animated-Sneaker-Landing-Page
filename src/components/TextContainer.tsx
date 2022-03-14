@@ -15,9 +15,12 @@ const TextContainer = () => {
           variants={fadeIn()}
           className="text-black font-bold text-2xl"
         >
-          Get Your Favorite
+          Get Your <span className="text-red-500">Favorite</span>
         </motion.span>
-        <motion.span variants={fadeIn()} className="first-letter:text-5xl">
+        <motion.span
+          variants={fadeIn()}
+          className="first-letter:text-5xl last:text-3xl"
+        >
           2 /4
         </motion.span>
       </div>
