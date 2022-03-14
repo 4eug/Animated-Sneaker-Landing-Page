@@ -11,7 +11,7 @@
 @layer components {
   /* header */
   .header {
-    @apply h-[15vh] flex items-center px-10 py-4 md:px-10 text-lg justify-between;
+    @apply h-[15vh] flex items-center px-5 py-4 md:px-32 text-lg justify-between;
   }
   .header-logo {
     @apply font-black md:text-3xl;
@@ -45,13 +45,13 @@
     @apply flex items-center justify-between;
   }
   .textContainer-bottom > button {
-    @apply p-2 text-base tracking-wide text-white lowercase bg-gray-900 rounded-lg md:px-6 md:py-3 md:text-lg;
+    @apply p-2 text-base tracking-wide text-white lowercase bg-gray-900 rounded-lg hover:bg-red-500 hover:text-black md:px-6 md:py-3 md:text-lg;
   }
   .textContainer-bottom > p {
     @apply text-sm font-semibold md:text-2xl;
   }
   .textContainer-bottom > p > span {
-    @apply text-red-400;
+    @apply text-red-500;
   }
 
   .sneakersWrapper {

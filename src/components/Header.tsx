@@ -9,7 +9,9 @@ const Header = () => {
       animate="animate"
       className="header"
     >
-      <span className="header-logo">WeSneakez.</span>
+      <span className="header-logo">
+        WeSneakez<span>.</span>
+      </span>
       <span className="header-menu">Menu</span>
       <span className="header-menu2">Menu</span>
     </motion.nav>

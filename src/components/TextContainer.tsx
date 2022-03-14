@@ -11,7 +11,10 @@ const TextContainer = () => {
     >
       {/* upper */}
       <div className="textContainer-top">
-        <motion.span variants={fadeIn()} className="text-black ">
+        <motion.span
+          variants={fadeIn()}
+          className="text-black font-bold text-2xl"
+        >
           Get Your Favorite
         </motion.span>
         <motion.span variants={fadeIn()} className="first-letter:text-5xl">
